@@ -9,7 +9,7 @@ The requirements are:
     - *For to have the weight of words in the coprus, use **corpy**.*
 - **simbycos.**
     - *Brings two functios.*
-        -*queryvector.*
+        - *queryvector.*
             -*function to vectorize a query with *IDF* data. Needs three inputs, a **query**, the **vocabulary** of the corpus and the **IDF**.*
         - *SBC.*
             -*Calculate similitub by coseno, needs two vectors of equal longitud, a **queryvector** and a **TF-IDF** list.*
