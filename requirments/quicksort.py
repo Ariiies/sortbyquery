@@ -1,5 +1,7 @@
+# this is a modificated version to accept list with 3 elements for item, but the third element
+# always need to be a number (or modificate the indice to coincide with the numeric element)
 def partition(array, low, high, reverse=False):
-    # choice pivot
+    # choice pivot 
     pivot = array[low][2]
     izq = low+1
     der = high
