@@ -1,7 +1,6 @@
 ## Sort by query
 
-This project recives a list and query and order the list depends the similitud of theor elements with the query.
-To the proper functioning of this project, is needed the requirements with others programs that brings necessary tools.
+sortbyquery is a project that enables searching and ranking documents based on their similarity to a given query. Utilizing the TF-IDF model and cosine similarity, the system analyzes a corpus of documents and returns a sorted list of those that are most relevant to the query, facilitating information retrieval and effective searching in large datasets.
 The requirements are:
 - [**Corpy**](https://www.github.com/Ariiies/corpy).
     - *For to have data available about the words and documents that make up a corpus.*
